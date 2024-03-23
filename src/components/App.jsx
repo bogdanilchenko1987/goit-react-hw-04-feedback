@@ -28,7 +28,7 @@ export const App = () => {
       <Section title="Please leave feedback">
         <FeedbackOptions
           options={Object.keys(state)}
-          handleReviews={e => handleReviews(e)}
+          handleReviews={handleReviews}
         />
       </Section>
 
